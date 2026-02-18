@@ -1,0 +1,84 @@
+﻿@model LibraryManagement.MVC.Models.BookViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+            <div class="card shadow-lg border-0 rounded-4">
+
+                <!-- Header -->
+                <div class="card-header text-white text-center py-4"
+                     style="background: linear-gradient(45deg, #0d6efd, #4dabf7);">
+                    <i class="bi bi-book-fill fs-1 mb-2"></i>
+                    <h3 class="mb-0">@Model.Title</h3>
+                    <small class="opacity-75">Book information summary</small>
+                </div>
+
+                <!-- Body -->
+                <div class="card-body p-5 text-center">
+
+                    <!-- Author -->
+                    <p class="fw-bold fs-4 text-primary mb-4">
+                        <i class="bi bi-person me-2"></i>@Model.Author
+                    </p>
+
+                    <!-- Info Cards -->
+                    <div class="row g-4 mb-4">
+                        <!-- ISBN -->
+                        <div class="col-md-6">
+                            <div class="p-4 rounded-4 border bg-light h-100">
+                                <div class="fw-bold mb-1">
+                                    <i class="bi bi-upc-scan me-2"></i>ISBN
+                                </div>
+                                <div class="fs-5">
+                                    @(string.IsNullOrEmpty(Model.ISBN) ? "Not assigned" : Model.ISBN)
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Status -->
+                        <div class="col-md-6">
+                            <div class="p-4 rounded-4 border h-100
+                                 @(Model.Status == "Available" ? "border-success" : "border-warning")">
+                                <div class="fw-bold mb-1">
+                                    <i class="bi bi-circle-fill me-2"></i>Status
+                                </div>
+                                <span class="badge fs-5 px-3 py-2
+                                    @(Model.Status == "Available" ? "bg-success" : "bg-warning text-dark")">
+                                    @Model.Status
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Added Date -->
+                    <div class="p-4 rounded-4 bg-light border mb-4">
+                        <div class="fw-bold mb-1">
+                            <i class="bi bi-calendar-check me-2"></i>Added On
+                        </div>
+                        <div class="fs-5">
+                            @Model.CreatedDate.ToString("MMMM dd, yyyy 'at' hh:mm tt")
+                        </div>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-grid gap-3 d-md-flex justify-content-md-center mt-3">
+                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning btn-lg px-5">
+                            <i class="bi bi-pencil me-2"></i>Edit Book
+                        </a>
+
+                        <a asp-action="Index" class="btn btn-outline-secondary btn-lg px-5">
+                            <i class="bi bi-arrow-left me-2"></i>Back to Library
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+﻿@model LibraryManagement.MVC.Models.BookUpdateViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Edit Book";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-warning text-white text-center py-4">
+                    <i class="bi bi-pencil-square fs-1 mb-2"></i>
+                    <h3>Edit Book</h3>
+                </div>
+                <div class="card-body p-5">
+                    <form asp-action="Edit" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                        <div class="mb-4">
+                            <label asp-for="Title" class="form-label fw-bold">Title</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-book"></i></span>
+                                <input asp-for="Title" class="form-control" required />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <label asp-for="Author" class="form-label fw-bold">Author</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                    <input asp-for="Author" class="form-control" required />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <label asp-for="ISBN" class="form-label fw-bold">ISBN</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-barcode"></i></span>
+                                    <input asp-for="ISBN" class="form-control" required />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Status" class="form-label fw-bold">Status</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-circle-fill"></i></span>
+                                <select asp-for="Status" class="form-select">
+                                    <option value="Available">Available</option>
+                                    <option value="Borrowed">Borrowed</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="submit" class="btn btn-warning btn-lg px-5">
+                                <i class="bi bi-check2 me-2"></i>Update
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary btn-lg px-4">
+                                <i class="bi bi-arrow-left me-2"></i>Back to Library
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

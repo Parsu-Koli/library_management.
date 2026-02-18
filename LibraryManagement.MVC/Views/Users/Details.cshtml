@@ -1,0 +1,104 @@
+﻿@model LibraryManagement.MVC.Models.UserViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-6">
+
+            <div class="card shadow-lg border-0 rounded-4">
+
+                <!-- Header -->
+                <div class="card-header text-white text-center py-4"
+                     style="background: linear-gradient(45deg, #0d6efd, #6610f2);">
+                    <i class="bi bi-person-badge fs-1 mb-2"></i>
+                    <h3 class="mb-0">User Profile</h3>
+                    <small class="opacity-75">Account overview and member information</small>
+                </div>
+
+                <!-- Body -->
+                <div class="card-body p-5 text-center">
+
+                    <!-- Avatar -->
+                    <div class="mb-4">
+                        <i class="bi bi-person-circle"
+                           style="font-size: 7rem; color: #6f42c1;"></i>
+                    </div>
+
+                    <!-- Name and Role -->
+                    <h2 class="fw-bold mb-2">@Model.Name</h2>
+
+                    <span class="badge rounded-pill px-4 py-2 mb-4
+                                 @((Model.Role == "Admin") ? "bg-danger" :
+                                                             (Model.Role == "Librarian") ? "bg-info" : "bg-success")">
+                        <i class="bi bi-shield-check me-1"></i>@Model.Role
+                    </span>
+
+                    <!-- Contact Section -->
+                    <div class="row g-4 mb-4 text-start">
+
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded-3 shadow-sm h-100">
+                                <div class="fw-bold mb-1">
+                                    <i class="bi bi-envelope me-2"></i>Email
+                                </div>
+                                <div>@Model.Email</div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded-3 shadow-sm h-100">
+                                <div class="fw-bold mb-1">
+                                    <i class="bi bi-telephone me-2"></i>Phone
+                                </div>
+                                <div>
+                                    @(string.IsNullOrEmpty(Model.Phone) ? "Not provided" : Model.Phone)
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Membership info -->
+                    <div class="p-4 rounded-4 text-white mb-4"
+                         style="background: linear-gradient(45deg,#0dcaf0,#6f42c1);">
+                        <div class="row">
+
+                            <div class="col-md-6 text-start">
+                                <div class="fw-bold">
+                                    <i class="bi bi-calendar-check me-2"></i>Member Since
+                                </div>
+                                <div>@Model.JoinedDate.ToString("MMMM dd, yyyy")</div>
+                            </div>
+
+                            <div class="col-md-6 text-start mt-3 mt-md-0">
+                                <div class="fw-bold">
+                                    <i class="bi bi-hash me-2"></i>User ID
+                                </div>
+                                <div>#@Model.Id</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+                        <a asp-action="Edit"
+                           asp-route-id="@Model.Id"
+                           class="btn btn-warning btn-lg px-5 shadow-sm">
+                            <i class="bi bi-pencil-square me-2"></i>Edit Profile
+                        </a>
+
+                        <a asp-action="Index"
+                           class="btn btn-outline-secondary btn-lg px-5">
+                            <i class="bi bi-arrow-left me-2"></i>Back to Users
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

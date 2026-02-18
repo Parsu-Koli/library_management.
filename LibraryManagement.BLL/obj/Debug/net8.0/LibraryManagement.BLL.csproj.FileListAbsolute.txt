@@ -1,0 +1,15 @@
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\bin\Debug\net8.0\LibraryManagement.BLL.deps.json
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\bin\Debug\net8.0\LibraryManagement.BLL.dll
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\bin\Debug\net8.0\LibraryManagement.BLL.pdb
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\bin\Debug\net8.0\LibraryManagement.DAL.dll
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\bin\Debug\net8.0\LibraryManagement.DAL.pdb
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\LibraryManagement.BLL.csproj.AssemblyReference.cache
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\LibraryManagement.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\LibraryManagement.BLL.AssemblyInfoInputs.cache
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\LibraryManagement.BLL.AssemblyInfo.cs
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\LibraryManagement.BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\LibraryM.DBDC1626.Up2Date
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\LibraryManagement.BLL.dll
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\refint\LibraryManagement.BLL.dll
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\LibraryManagement.BLL.pdb
+C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Library Management\LibraryManagement.BLL\obj\Debug\net8.0\ref\LibraryManagement.BLL.dll

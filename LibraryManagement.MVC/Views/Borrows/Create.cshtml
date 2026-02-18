@@ -1,0 +1,58 @@
+﻿@model LibraryManagement.MVC.Models.BorrowCreateViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-gradient-primary text-white text-center py-4">
+                    <i class="bi bi-arrow-right-circle fs-1 mb-2"></i>
+                    <h3>Create Borrow Record</h3>
+                </div>
+                <div class="card-body p-5">
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <label asp-for="BookId" class="form-label fw-bold fs-5">Book ID</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-book"></i></span>
+                                    <input asp-for="BookId" type="number" class="form-control form-control-lg"
+                                           placeholder="Enter Book ID" required />
+                                </div>
+                                <div class="form-text">Enter the ID of book to borrow</div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <label asp-for="UserId" class="form-label fw-bold fs-5">User ID</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                    <input asp-for="UserId" type="number" class="form-control form-control-lg"
+                                           placeholder="Enter User ID" required />
+                                </div>
+                                <div class="form-text">Enter the ID of user borrowing</div>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-info">
+                            <i class="bi bi-info-circle me-2"></i>
+                            <strong>Note:</strong> Borrow date will be set automatically. Use Return action to mark as returned.
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="submit" class="btn btn-primary btn-lg px-5">
+                                <i class="bi bi-arrow-right-circle me-2"></i>Borrow Book
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary btn-lg px-4">
+                                <i class="bi bi-arrow-left me-2"></i>Back to Records
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

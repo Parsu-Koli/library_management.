@@ -1,0 +1,83 @@
+﻿@model LibraryManagement.MVC.Models.BookCreateViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Create Book";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-6">
+
+            <div class="card shadow-lg border-0 rounded-4">
+
+                <!-- Header -->
+                <div class="card-header text-white text-center py-4"
+                     style="background: linear-gradient(45deg, #0d6efd, #4dabf7);">
+                    <i class="bi bi-book-half fs-1 mb-2"></i>
+                    <h3 class="mb-0">Add New Book</h3>
+                    <small class="opacity-75">Enter book details to add it to the library</small>
+                </div>
+
+                <!-- Body -->
+                <div class="card-body p-5">
+
+                    <form asp-action="Create" method="post">
+
+                        <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                        <!-- Book Title -->
+                        <div class="mb-4">
+                            <label asp-for="Title" class="form-label fw-bold fs-5">Book Title</label>
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-text bg-light">
+                                    <i class="bi bi-type"></i>
+                                </span>
+                                <input asp-for="Title" class="form-control" placeholder="Enter book title" required />
+                            </div>
+                            <div class="form-text">Example: The Alchemist</div>
+                        </div>
+
+                        <!-- Author -->
+                        <div class="mb-4">
+                            <label asp-for="Author" class="form-label fw-bold fs-5">Author</label>
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-text bg-light">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                </span>
+                                <input asp-for="Author" class="form-control" placeholder="Enter author name" required />
+                            </div>
+                            <div class="form-text">Example: Paulo Coelho</div>
+                        </div>
+
+                        <!-- ISBN -->
+                        <div class="mb-5">
+                            <label asp-for="ISBN" class="form-label fw-bold fs-5">ISBN Number</label>
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-text bg-light">
+                                    <i class="bi bi-upc-scan"></i>
+                                </span>
+                                <input asp-for="ISBN" class="form-control" placeholder="e.g., 978-0-06-231500-7" />
+                            </div>
+                            <div class="form-text">Optional but recommended for cataloging</div>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-grid gap-3 d-md-flex justify-content-md-start">
+                            <button type="submit" class="btn btn-primary btn-lg px-5 shadow-sm">
+                                <i class="bi bi-check-circle me-2"></i>Create Book
+                            </button>
+
+                            <a asp-action="Index" class="btn btn-outline-secondary btn-lg px-5">
+                                <i class="bi bi-arrow-left me-2"></i>Back to List
+                            </a>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

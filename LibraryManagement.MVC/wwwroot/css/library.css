@@ -1,0 +1,67 @@
+﻿.bg-gradient-library {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.main-content {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.library-title {
+    background: linear-gradient(45deg, #6f42c1, #007bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.gradient-card {
+    background: linear-gradient(145deg, #ffffff, #f8f9fa);
+}
+
+.info-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid #007bff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.info-label {
+    font-size: 0.85rem;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.info-value {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.empty-library {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.empty-icon {
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+}
+
+.tooltip-btn {
+    transition: all 0.3s ease;
+}
+
+    .tooltip-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }

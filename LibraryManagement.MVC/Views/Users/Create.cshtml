@@ -1,0 +1,113 @@
+﻿@model LibraryManagement.MVC.Models.UserCreateViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-6">
+
+            <div class="card shadow-lg border-0 rounded-4">
+
+                <!-- Header -->
+                <div class="card-header text-white text-center py-4"
+                     style="background: linear-gradient(45deg, #198754, #20c997);">
+                    <i class="bi bi-person-plus-fill fs-1 mb-2"></i>
+                    <h3 class="mb-0">Create New User</h3>
+                    <small class="opacity-75">Register a new library account</small>
+                </div>
+
+                <!-- Body -->
+                <div class="card-body p-5">
+
+                    <form asp-action="Create" method="post">
+
+                        <!-- Validation -->
+                        <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                        <!-- Full Name -->
+                        <div class="mb-4">
+                            <label asp-for="Name" class="form-label fw-bold fs-5">Full Name</label>
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-text bg-light border-success">
+                                    <i class="bi bi-person"></i>
+                                </span>
+                                <input asp-for="Name" class="form-control"
+                                       placeholder="Enter full name" required />
+                            </div>
+                            <div class="form-text">This name will appear in member records</div>
+                        </div>
+
+                        <!-- Email & Phone -->
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <label asp-for="Email" class="form-label fw-bold">Email Address</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-envelope"></i>
+                                    </span>
+                                    <input asp-for="Email"
+                                           type="email"
+                                           class="form-control"
+                                           placeholder="user@example.com"
+                                           required />
+                                </div>
+                                <div class="form-text">Used for login and notifications</div>
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <label asp-for="Phone" class="form-label fw-bold">Phone Number</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-telephone"></i>
+                                    </span>
+                                    <input asp-for="Phone"
+                                           class="form-control"
+                                           placeholder="Optional contact number" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Role -->
+                        <div class="mb-5">
+                            <label asp-for="Role" class="form-label fw-bold fs-5">User Role</label>
+
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-info">
+                                    <i class="bi bi-shield-lock"></i>
+                                </span>
+
+                                <select asp-for="Role" class="form-select form-select-lg">
+                                    <option value="Member">👤 Member – Borrow books</option>
+                                    <option value="Librarian">📖 Librarian – Manage books & users</option>
+                                    <option value="Admin">👑 Admin – Full access</option>
+                                </select>
+                            </div>
+
+                            <div class="form-text mt-2">
+                                <i class="bi bi-info-circle me-1"></i>
+                                Choose wisely — permissions depend on role
+                            </div>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-grid gap-3 d-md-flex justify-content-md-start">
+                            <button type="submit"
+                                    class="btn btn-success btn-lg px-5 shadow-sm">
+                                <i class="bi bi-person-plus me-2"></i>Create User
+                            </button>
+
+                            <a asp-action="Index"
+                               class="btn btn-outline-secondary btn-lg px-5">
+                                <i class="bi bi-arrow-left me-2"></i>Back to Users
+                            </a>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

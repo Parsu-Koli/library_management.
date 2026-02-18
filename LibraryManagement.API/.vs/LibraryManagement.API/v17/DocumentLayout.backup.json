@@ -1,0 +1,379 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\services\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\dtos\\borrows\\borrowrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B588107-722B-45A2-AEAD-171BBF8882B6}|..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.dal\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B588107-722B-45A2-AEAD-171BBF8882B6}|..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.dal\\repositories\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B588107-722B-45A2-AEAD-171BBF8882B6}|..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.dal\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B588107-722B-45A2-AEAD-171BBF8882B6}|..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.dal\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.api\\controllers\\borrowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|solutionrelative:controllers\\borrowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B588107-722B-45A2-AEAD-171BBF8882B6}|..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\dtos\\users\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\dtos\\users\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\dtos\\users\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\dtos\\borrows\\borrowreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\dtos\\books\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B588107-722B-45A2-AEAD-171BBF8882B6}|..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.dal\\librarymanagement.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.api\\librarymanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0E0B8F3C-B461-46FE-8C47-ECFCE585DD0F}|LibraryManagement.API.csproj|solutionrelative:librarymanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E28813D-64D2-46ED-AA26-7EA1EBCA940A}|..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.bll\\librarymanagement.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B588107-722B-45A2-AEAD-171BBF8882B6}|..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.dal\\migrations\\20251228181732_addbookusertoborrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B588107-722B-45A2-AEAD-171BBF8882B6}|..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\library management\\librarymanagement.dal\\migrations\\20251228131058_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BorrowRecord.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Models\\BorrowRecord.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.DAL\\Models\\BorrowRecord.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Models\\BorrowRecord.cs",
+              "RelativeToolTip": "..\\LibraryManagement.DAL\\Models\\BorrowRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:20:23.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.DAL\\Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "..\\LibraryManagement.DAL\\Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:22:02.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Repositories\\Implementation\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.DAL\\Repositories\\Implementation\\Repository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Repositories\\Implementation\\Repository.cs",
+              "RelativeToolTip": "..\\LibraryManagement.DAL\\Repositories\\Implementation\\Repository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA8wCwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:19:05.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Data\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.DAL\\Data\\LibraryDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Data\\LibraryDbContext.cs",
+              "RelativeToolTip": "..\\LibraryManagement.DAL\\Data\\LibraryDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:11:24.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BorrowRecordDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Borrows\\BorrowRecordDto.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\DTOs\\Borrows\\BorrowRecordDto.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Borrows\\BorrowRecordDto.cs",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\DTOs\\Borrows\\BorrowRecordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:05:09.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\Services\\BorrowService.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\Services\\BorrowService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\Services\\BorrowService.cs",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\Services\\BorrowService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T11:04:29.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T10:42:05.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20251228181732_AddBookUserToBorrow.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Migrations\\20251228181732_AddBookUserToBorrow.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.DAL\\Migrations\\20251228181732_AddBookUserToBorrow.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Migrations\\20251228181732_AddBookUserToBorrow.cs",
+              "RelativeToolTip": "..\\LibraryManagement.DAL\\Migrations\\20251228181732_AddBookUserToBorrow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:17:32.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BorrowsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\Controllers\\BorrowsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BorrowsController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\Controllers\\BorrowsController.cs",
+              "RelativeToolTip": "Controllers\\BorrowsController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T10:46:44.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:03:18.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAewC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:08:14.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Users\\UserUpdateDto.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\DTOs\\Users\\UserUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Users\\UserUpdateDto.cs",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\DTOs\\Users\\UserUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:24:38.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.DAL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Models\\User.cs",
+              "RelativeToolTip": "..\\LibraryManagement.DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:27:21.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:15:05.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Users\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\DTOs\\Users\\UserCreateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Users\\UserCreateDto.cs",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\DTOs\\Users\\UserCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:23:30.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Users\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\DTOs\\Users\\UserDto.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Users\\UserDto.cs",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\DTOs\\Users\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:24:09.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20251228131058_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Migrations\\20251228131058_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.DAL\\Migrations\\20251228131058_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\Migrations\\20251228131058_InitialCreate.cs",
+              "RelativeToolTip": "..\\LibraryManagement.DAL\\Migrations\\20251228131058_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:10:58.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BorrowReturnDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Borrows\\BorrowReturnDto.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\DTOs\\Borrows\\BorrowReturnDto.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Borrows\\BorrowReturnDto.cs",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\DTOs\\Borrows\\BorrowReturnDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:06:11.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Books\\BookUpdateDto.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\DTOs\\Books\\BookUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\DTOs\\Books\\BookUpdateDto.cs",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\DTOs\\Books\\BookUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T10:50:29.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\Services\\BookService.cs",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\Services\\BookService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAUwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T10:42:06.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LibraryManagement.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj",
+              "RelativeToolTip": "..\\LibraryManagement.DAL\\LibraryManagement.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-28T10:42:04.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LibraryManagement.API.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\LibraryManagement.API.csproj",
+              "RelativeDocumentMoniker": "LibraryManagement.API.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.API\\LibraryManagement.API.csproj",
+              "RelativeToolTip": "LibraryManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-28T10:42:04.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LibraryManagement.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj",
+              "RelativeDocumentMoniker": "..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Library Management\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj",
+              "RelativeToolTip": "..\\LibraryManagement.BLL\\LibraryManagement.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-28T10:42:03.851Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

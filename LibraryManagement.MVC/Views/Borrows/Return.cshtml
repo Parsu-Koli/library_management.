@@ -1,0 +1,117 @@
+﻿@model LibraryManagement.MVC.Models.BorrowViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-8">
+            <div class="card shadow-lg border-0">
+                <!-- Header with Warning -->
+                <div class="card-header bg-gradient-warning text-dark text-center py-5">
+                    <div class="return-icon mb-3">
+                        <i class="bi bi-box-arrow-in-right fs-1" style="font-size: 6rem; color: #ffc107;"></i>
+                    </div>
+                    <h2 class="mb-2">Return Book Confirmation</h2>
+                    <p class="lead mb-0">Borrow Record #@Model.Id</p>
+                </div>
+
+                <!-- Borrow Details -->
+                <div class="card-body p-5">
+                    <div class="row g-4 mb-5">
+                        <!-- Book Info -->
+                        <div class="col-md-6">
+                            <div class="info-card bg-light border-primary h-100">
+                                <div class="info-label mb-2">
+                                    <i class="bi bi-book me-2 text-primary"></i>
+                                    <strong>Book Details</strong>
+                                </div>
+                                <div class="info-value fs-5 fw-bold">@Model.BookTitle</div>
+                                <small class="text-muted">Book ID: <code>@Model.BookId</code></small>
+                            </div>
+                        </div>
+
+                        <!-- User Info -->
+                        <div class="col-md-6">
+                            <div class="info-card bg-light border-success h-100">
+                                <div class="info-label mb-2">
+                                    <i class="bi bi-person me-2 text-success"></i>
+                                    <strong>User Details</strong>
+                                </div>
+                                <div class="info-value fs-5 fw-bold">@Model.UserName</div>
+                                <small class="text-muted">User ID: <code>@Model.UserId</code></small>
+                            </div>
+                        </div>
+
+                        <!-- Dates -->
+                        <div class="col-md-6">
+                            <div class="info-card bg-light border-info h-100">
+                                <div class="info-label mb-2">
+                                    <i class="bi bi-calendar-check me-2 text-info"></i>
+                                    Borrowed On
+                                </div>
+                                <div class="info-value fs-5">@Model.BorrowDate.ToString("MMMM dd, yyyy 'at' hh:mm tt")</div>
+                            </div>
+                        </div>
+
+                        <!-- Status -->
+                        <div class="col-md-6">
+                            <div class="info-card bg-light border-warning h-100">
+                                <div class="info-label mb-2">
+                                    <i class="bi bi-clock-history me-2 text-warning"></i>
+                                    Current Status
+                                </div>
+                                <div class="info-value fs-5 fw-bold text-warning">
+                                    <i class="bi bi-arrow-clockwise me-1"></i>Active (Not Returned)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Confirmation Section -->
+                    <div class="alert alert-warning border-start border-5 border-warning">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-exclamation-triangle-fill fs-3 me-3 text-warning"></i>
+                            <div>
+                                <h5 class="mb-2">Confirm Book Return</h5>
+                                <p class="mb-0">
+                                    Are you sure you want to mark this book as returned?
+                                    This action cannot be undone and will update the book status to "Available".
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="d-grid gap-3 d-md-flex justify-content-center">
+                        <form asp-action="Return" asp-route-id="@Model.Id" method="post" class="d-inline me-md-3 mb-3 mb-md-0">
+                            <button type="submit" class="btn btn-success btn-lg px-5 shadow-sm">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                ✅ Yes, Return Book
+                            </button>
+                        </form>
+
+                        <a asp-action="Index" class="btn btn-outline-secondary btn-lg px-5">
+                            <i class="bi bi-x-circle me-2"></i>Cancel
+                        </a>
+
+                        <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-outline-primary btn-lg px-5">
+                            <i class="bi bi-eye me-2"></i>View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Confirmation dialog
+        document.querySelector('form').addEventListener('submit', function(e) {
+            if (!confirm('📚 Are you sure you want to mark this book as returned?\n\nBook: ' + '@Model.BookTitle' + '\nUser: ' + '@Model.UserName')) {
+                e.preventDefault();
+            }
+        });
+    </script>
+}

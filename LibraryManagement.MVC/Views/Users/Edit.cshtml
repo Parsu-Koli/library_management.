@@ -1,0 +1,114 @@
+﻿@model LibraryManagement.MVC.Models.UserUpdateViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+
+    <div class="card border-0 shadow-lg"
+         style="background: rgba(255,255,255,0.08);
+                backdrop-filter: blur(18px);
+                border-radius: 24px;
+                border: 1px solid rgba(255,255,255,0.25);">
+
+        <!-- HEADER -->
+        <div class="card-header text-white text-center py-4"
+             style="background: linear-gradient(135deg,#10b981,#047857); border-top-left-radius:24px;border-top-right-radius:24px;">
+            <i class="bi bi-pencil-square fs-1 mb-2"></i>
+            <h3 class="fw-bold m-0">Edit User Profile</h3>
+            <small class="opacity-75">Update @Model.Name information</small>
+        </div>
+
+        <div class="card-body p-5">
+
+            <form asp-action="Edit" method="post">
+                <input type="hidden" asp-for="Id" />
+                <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                <!-- AVATAR -->
+                <div class="text-center mb-4">
+                    <i class="bi bi-person-circle"
+                       style="font-size: 6rem; color:#fbbf24;"></i>
+                    <div class="fw-semibold mt-2 text-muted">@Model.Name</div>
+                </div>
+
+                <!-- NAME -->
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label fw-semibold">Full Name</label>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-text">
+                            <i class="bi bi-person"></i>
+                        </span>
+                        <input asp-for="Name" class="form-control" placeholder="Enter full name" />
+                    </div>
+                </div>
+
+                <!-- CONTACT ROW -->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Email" class="form-label fw-semibold">Email</label>
+                        <div class="input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope"></i>
+                            </span>
+                            <input asp-for="Email" type="email" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Phone" class="form-label fw-semibold">Phone</label>
+                        <div class="input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-telephone"></i>
+                            </span>
+                            <input asp-for="Phone" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROLE -->
+                <div class="mb-4">
+                    <label asp-for="Role" class="form-label fw-semibold">User Role</label>
+
+                    <select asp-for="Role" class="form-select form-select-lg">
+                        <option value="Member" selected="@(Model.Role == "Member")">👤 Member – Can borrow books</option>
+                        <option value="Librarian" selected="@(Model.Role == "Librarian")">📖 Librarian – Manage books & users</option>
+                        <option value="Admin" selected="@(Model.Role == "Admin")">👑 Admin – Full access</option>
+                    </select>
+                </div>
+
+                <!-- ACCOUNT INFO -->
+                <div class="alert alert-warning border-0 shadow-sm">
+                    <i class="bi bi-info-circle me-2"></i>
+                    <strong>Account Information</strong>
+                    <hr />
+                    <p class="mb-1"><b>Member Since:</b> @Model.JoinedDate.ToString("MMMM dd, yyyy 'at' hh:mm tt")</p>
+                    <p class="mb-0"><b>User ID:</b> <code>#@Model.Id</code></p>
+                </div>
+
+                <!-- BUTTONS -->
+                <div class="d-flex flex-wrap gap-2 mt-4">
+
+                    <button type="submit"
+                            class="btn btn-success px-4 py-2"
+                            style="border-radius:14px; box-shadow:0 10px 25px rgba(16,185,129,.4);">
+                        <i class="bi bi-check-circle me-1"></i> Update Profile
+                    </button>
+
+                    <a asp-action="Details" asp-route-id="@Model.Id"
+                       class="btn btn-outline-warning px-4 py-2"
+                       style="border-radius:14px;">
+                        <i class="bi bi-eye me-1"></i> View Profile
+                    </a>
+
+                    <a asp-action="Index"
+                       class="btn btn-outline-secondary px-4 py-2"
+                       style="border-radius:14px;">
+                        <i class="bi bi-arrow-left me-1"></i> Back to Users
+                    </a>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
